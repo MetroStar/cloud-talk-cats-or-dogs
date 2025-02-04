@@ -53,8 +53,8 @@ modules:
   * Manages all other resources, including the objects in the S3 bucket
   * Utilizes the [`lx-autoscale`][lx-autoscale] module from [`terraform-aws-watchmaker`][terraform-aws-watchmaker]
 
-[lx-autoscale]: https://github.com/plus3it/terraform-aws-watchmaker/tree/master/modules/lx-autoscale
-[terraform-aws-watchmaker]: https://github.com/plus3it/terraform-aws-watchmaker
+[lx-autoscale]: https://github.com/MetroStar/terraform-aws-watchmaker/tree/master/modules/lx-autoscale
+[terraform-aws-watchmaker]: https://github.com/MetroStar/terraform-aws-watchmaker
 
 > **NOTE**: The `iam` and `bucket` modules must be deployed first, as their
 resources must exist when the `main` module is deployed.
